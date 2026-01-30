@@ -7,26 +7,29 @@
     <link rel="stylesheet" href="style.css">
     <link
      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
+<a target="_blank" href="https://icons8.com/icon/39969/right-arrow">Right Arrow</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 </head>
 <body>
     <!-- Navigation Section -->
-     <div class="navigation">
-        <div class="logo">
-            <h2>EVERWOOD INTERIORS</h2>
-            <P>Furniture That Feels Like Home</P>
-        </div>
-        <nav class="nav-bar">
-            <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">SHOP</a></li>
-                <li><a href="">ABOUT US</a></li>
-                <li><a href="">GALLERY</a></li>
-                <li><a href="">CONTACT</a></li>
-            </ul>
-        </nav>
-     </div>
-    <!--End Navigation Section -->
+<div class="navigation">
+    <div class="logo">
+        <img src="./image/file_000000001bc471fda6381437ba7f9bf6.png" alt="" width="190px">
+    </div>
+
+    <nav class="nav-bar" id="navBar">
+        <i class="fa-solid fa-x" id="closeMenu" onclick="hidemenu()"></i>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">SHOP</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="">GALLERY</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <i class="fa-solid fa-bars" id="openMenu" onclick="showmenu()"></i>
+</div>
+<!-- End Navigation Section -->
 
     <!-- Hero Section -->
      <div class="hero">
@@ -75,5 +78,91 @@
         </div>
      </div>
     <!--End What we made -->
+
+    <!-- Why choose Us -->
+     <div class="choose">
+        <p class="p">Why Choose Us</p>
+        <h2>Why Choose Our Furniture</h2>
+
+        <div class="reason-all">
+            <div class="reason">
+              <div class="R-icon">
+            <i class="fa-solid fa-crown"></i>
+          </div>
+          <div class="R-text">
+                <li>Premium Quality Materials</li>
+            <p>We use durable and eco-friendly materials <br>built to last.</p>
+          </div>
+        </div>
+
+          <div class="reason">
+              <div class="R-icon">
+            <i class="fa-solid fa-couch"></i>
+          </div>
+          <div class="R-text">
+                <li>Modern & Timeless Design</li>
+            <p>Furniture that stays <br>stylish for years.</p>
+          </div>
+        </div>
+
+          <div class="reason">
+              <div class="R-icon">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="R-text">
+                <li>Comfort & Functionality</li>
+            <p>Designed to fit both your <br>space and lifestyle.</p>
+          </div>
+        </div>
+
+          <div class="reason">
+              <div class="R-icon">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+          </div>
+          <div class="R-text">
+                <li>Affordable Prices</li>
+            <p>High Quality furniture <br> at fair prices.</p>
+          </div>
+        </div>
+
+        </div>
+     </div>
+    <!--End Why choose Us -->
+
+    <!-- Footer Section -->
+     <div class="footer">
+        <div class="left">
+            <h2>Everwood Interiors</h2>
+            <p>Furniture That Feels Like Home</p>
+        </div>
+        <div class="link">
+               <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">SHOP</a></li>
+            <li><a href="">ABOUT US</a></li>
+            <li><a href="">GALLERY</a></li>
+        </ul>
+    </div>
+        <div class="right">
+            <a href=""><button class="btn">Contact</button></a>
+        </div>
+                <p>Copyright</p>
+           <p> © 2026 Everwood Interiors. All rights reserved.</p>
+           <p>Designed & Developed by [36 CHOSEN ONE ICT SOLUTIONS]</p>
+     </div>
+    <!--End Footer Section -->
+
+   <script>
+    var navBar = document.getElementById("navBar");
+
+    function showmenu() {
+        navBar.style.right = "0px";
+    }
+
+    function hidemenu() {
+        navBar.style.right = "-150px";
+    }
+</script>
+
 </body>
 </html>
