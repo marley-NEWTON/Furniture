@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+       <link rel="stylesheet" href="style.css">
+    <link
+     rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+        <!-- Navigation Section -->
+<div class="navigation">
+    <div class="logo">
+        <img src="./image/file_000000001bc471fda6381437ba7f9bf6.png" alt="" width="190px">
+    </div>
+
+    <nav class="nav-bar" id="navBar">
+       
+        <ul>
+            <li> <i class="fa-solid fa-x" id="closeMenu" onclick="hidemenu()"></i></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="">GALLERY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <i class="fa-solid fa-bars" id="openMenu" onclick="showmenu()"></i>
+</div>
+<!-- End Navigation Section -->
+
+
+
+    <!-- Contact Section -->
+     <div class="contact-container">
+        <h2>Get in Touch</h2>
+        <p>
+        "We'd love to hear from you! Contact us for inquiries, feedback, or custom orders."
+        </p>
+       <div class="card-container">
+         <div class="contact-card">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+                <h4>Phone Number</h4>
+                <p>+254700598826</p>
+            </div>
+        </div>
+
+           <div class="contact-card">
+            <div>
+                <h4>Email Address</h4>
+                <p>Everwoodfurnitures@gmail.com</p>
+            </div>
+        </div>
+
+           <div class="contact-card">
+            <i class="fa-solid fa-location-crosshairs"></i>
+            <div>
+                <h4>Location</h4>
+                <p>Migori, Nyanza, Kenya</p>
+            </div>
+        </div>
+       </div>
+        
+       <div class="form">
+        <h2>Contact Form</h2>
+        <p>
+            Have quetions or need custom furniture?<br>
+        Contact us today and our team will be happy to help you.
+        </p>
+        <div class="field">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Name" id="name">
+        </div>
+
+         <div class="field">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Everwoodfurnitures@gmail.com" id="email">
+        </div>
+
+         <div class="field">
+            <label for="subject">Subject</label>
+            <input type="text" placeholder="Subject" id="subject">
+        </div>
+
+        <div class="field">
+            <textarea name="message" id="message" cols="30" rows="10"
+        placeholder="Message / Order Inquiry"></textarea>
+        </div>
+      <a href=""><button class="Submit">Submit</button></a>
+        
+       </div>
+      <div class="social-media">
+        <a href="">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+         <a href="">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+         <a href="">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+         <a href="">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </div>
+     </div>
+    <!--End Contact Section -->
+
+
+      <!-- Footer Section -->
+     <div class="footer">
+        <div class="left">
+            <h2>Everwood Interiors</h2>
+            <p>Furniture That Feels Like Home</p>
+        </div>
+        <div class="link">
+               <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="">GALLERY</a></li>
+        </ul>
+    </div>
+        <div class="right">
+            <a href="contact.html"><button class="btn">Contact</button></a>
+        </div>
+                <p>Copyright</p>
+           <p> © 2026 Everwood Interiors. All rights reserved.</p>
+           <p>Designed & Developed by [36 CHOSEN ONE ICT SOLUTIONS]</p>
+     </div>
+    <!--End Footer Section -->
+
+   <script>
+    var navBar = document.getElementById("navBar");
+
+    function showmenu() {
+        navBar.style.right = "0px";
+    }
+
+    function hidemenu() {
+        navBar.style.right = "-150px";
+    }
+</script>
+</body>
+</html>

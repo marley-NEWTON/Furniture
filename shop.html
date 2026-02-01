@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation Section -->
+<div class="navigation">
+    <div class="logo">
+        <img src="./image/file_000000001bc471fda6381437ba7f9bf6.png" alt="" width="190px">
+    </div>
+
+    <nav class="nav-bar" id="navBar">
+       
+        <ul>
+            <li> <i class="fa-solid fa-x" id="closeMenu" onclick="hidemenu()"></i></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="">GALLERY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <i class="fa-solid fa-bars" id="openMenu" onclick="showmenu()"></i>
+</div>
+<!-- End Navigation Section -->
+
+    <!-- Shop Section -->
+     <div class="shop-container">
+      <div class="shop-text">
+          <h2>Shop Premium Quality Furniture</h2>
+        <p>
+            Explore modern, durable furniture designed for homes, offices, and hotels.
+            crafted with care, quality, and style.
+        </p>
+      </div>
+
+        <div class="shop-section">
+          <div class="shop-card">
+                <img src="image/sofa.jpeg" alt="">
+                <h3>Luxury Sofa</h3>
+                <p class="price">KSh 45,000</p>
+                <p class="desc">
+                    Modern, durable sofa with attractive colors and comfort.
+                </p>
+               <a href=""><button class="btn-view">Buy Now</button></a>
+          </div>
+
+               <div class="shop-card">
+                <img src="image/bed.webp" alt="">
+                <h3>Luxury Bed</h3>
+                <p class="price">KSh 60,000</p>
+                <p class="desc">
+                   Crafted from solid wood, durable, and modern design.
+                </p>
+                <a href=""><button class="btn-view">Buy Now</button></a>
+          </div>
+
+               <div class="shop-card">
+                <img src="image/cmf.avif" alt="">
+                <h3>Comfort Chair</h3>
+                <p class="price">KSh 15,000</p>
+                <p class="desc">
+                    Stylish and comfortable chair, perfect for home or office.
+                </p>
+                <a href=""><button class="btn-view">Buy Now</button></a>
+          </div>
+
+               <div class="shop-card">
+                <img src="image/dining.webp" alt="">
+                <h3>Dinning Set</h3>
+                <p class="price">KSh 45,000</p>
+                <p class="desc">
+                    Modern dining table with chairs, study and family-friendly. 
+                </p>
+               <a href=""><button class="btn-view">Buy Now</button></a>
+          </div>
+
+               <div class="shop-card">
+                <img src="image/wadro.webp" alt="">
+                <h3>Wooden Wadrobe</h3>
+                <p class="price">KSh 50,000</p>
+                <p class="desc">
+                solid wood Wadrobe with prenty of storage space.
+                </p>
+                <a href=""><button class="btn-view">Buy Now</button></a>
+          </div>
+                  <div class="shop-card">
+                <img src="image/of3.jpg" alt="">
+                <h3>Office Furniture</h3>
+                <p class="price">KSh 55,000</p>
+                <p class="desc">
+                    Stylish and comfortable chair and tables, perfect for  office.
+                </p>
+                <a href="contact.html#form"><button class="btn-view">Buy Now</button></a>
+          </div>
+        </div>
+     </div>
+    <!--End Shop Section -->
+
+      <!-- Footer Section -->
+     <div class="footer">
+        <div class="left">
+            <h2>Everwood Interiors</h2>
+            <p>Furniture That Feels Like Home</p>
+        </div>
+        <div class="link">
+               <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="contact.html">GALLERY</a></li>
+        </ul>
+    </div>
+        <div class="right">
+            <a href="contact.html"><button class="btn">Contact</button></a>
+        </div>
+                <p>Copyright</p>
+           <p> © 2026 Everwood Interiors. All rights reserved.</p>
+           <p>Designed & Developed by [36 CHOSEN ONE ICT SOLUTIONS]</p>
+     </div>
+    <!--End Footer Section -->
+
+   <script>
+    var navBar = document.getElementById("navBar");
+
+    function showmenu() {
+        navBar.style.right = "0px";
+    }
+
+    function hidemenu() {
+        navBar.style.right = "-150px";
+    }
+</script>
+</body>
+</html>
