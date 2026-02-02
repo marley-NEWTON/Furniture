@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+      <link
+     rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation Section -->
+<div class="navigation">
+    <div class="logo">
+        <img src="./image/file_000000001bc471fda6381437ba7f9bf6.png" alt="" width="190px">
+    </div>
+
+    <nav class="nav-bar" id="navBar">
+       
+        <ul>
+            <li> <i class="fa-solid fa-x" id="closeMenu" onclick="hidemenu()"></i></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <i class="fa-solid fa-bars" id="openMenu" onclick="showmenu()"></i>
+</div>
+<!-- End Navigation Section -->
+
+    <!-- Gallery Section -->
+   <div class="gallery-container">
+   <div class="gallery-title">
+    <h2>Our Furniture Collection</h2>
+     <p>
+        Explore our collection of carefully crafted furniture, designed to bring elegance,
+        comfort, and lasting beatuty to your space.
+    </p>
+   </div>
+      <div class="gallery">
+        <img src="image/chair.jpeg" alt="">
+        <img src="image/cmf.avif" alt="">
+        <img src="image/dining.webp" alt="">
+        <img src="image/cover2.jpg" alt="">
+        <img src="image/offc.jpg" alt="">
+        <img src="image/bed.webp" alt="">
+        <img src="image/sofa.jpeg" alt="">
+        <img src="image/wdn.webp" alt="">
+        <img src="image/home.jpg" alt="">
+        <img src="image/wadro.webp" alt="">
+        <img src="image/cmf" alt="">
+        <img src="image/sf1.webp" alt="">
+        <img src="image/sf2.jpg" alt="">
+        <img src="image/of2.jpeg" alt="">
+        <img src="image/cover3.jpg" alt="">
+        <img src="image/office_image.webp" alt="">
+        <img src="image/ofc1.jpg" alt="">
+        <img src="image/cool.jpeg" alt="">
+        <img src="image/cover.webp" alt="">
+        <img src="image/design.jpeg" alt="">
+        <img src="image/kabati.webp" alt="">
+        <img src="image/gold.jpeg" alt="">
+        <img src="image/i.jpeg" alt="">
+        <img src="image/meeting.webp" alt="">
+        <img src="image/my.jpeg" alt="">
+        <img src="image/nice.jpeg" alt="">
+        <img src="image/one.jpeg" alt="">
+        <img src="image/room.webp" alt="">
+        <img src="image/table.webp" alt="">
+        <img src="image/sebule.webp" alt="">
+     </div>
+   </div>
+    <!--End Gallery Section -->
+
+     <!-- Footer Section -->
+     <div class="footer">
+        <div class="left">
+            <h2>Everwood Interiors</h2>
+            <p>Furniture That Feels Like Home</p>
+        </div>
+        <div class="link">
+               <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+        </ul>
+    </div>
+        <div class="right">
+            <a href="contact.html"><button class="btn">Contact</button></a>
+        </div>
+                <p>Copyright</p>
+           <p> © 2026 Everwood Interiors. All rights reserved.</p>
+           <p>Designed & Developed by [36 CHOSEN ONE ICT SOLUTIONS]</p>
+     </div>
+    <!--End Footer Section -->
+
+   <script>
+    var navBar = document.getElementById("navBar");
+
+    function showmenu() {
+        navBar.style.right = "0px";
+    }
+
+    function hidemenu() {
+        navBar.style.right = "-150px";
+    }
+</script>
+
+</body>
+</html>
