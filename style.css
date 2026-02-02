@@ -710,6 +710,12 @@ textarea {
 
 
 /* Gallery Section */
+.galler-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 .gallery-title {
     display: flex;
     align-items: center;
