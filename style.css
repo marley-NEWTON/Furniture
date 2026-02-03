@@ -170,7 +170,7 @@ body{
     margin-bottom: 1rem;
 }
 .img img {
-    height: 240px;
+    height: auto;
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
@@ -249,7 +249,7 @@ body{
 }
 
 .R-text h4 {
-    margin: 0;
+    /* margin: 0; */
     font-size: 16px;
       text-align: center;
 }
@@ -749,8 +749,45 @@ textarea {
 .gallery img {
   width: 100%;
   border-radius: 12px;
+  object-fit: cover;
 }
 
 /*End Gallery Section */
+
+/* Media */
+@media (min-width:1020px){
+    img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .icon-box i {
+        font-size: 10rem;
+        padding: 2rem;
+    }
+    .reason-all {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .shop-section {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+ 
+    .all-vm {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .vm h2 {
+        font-size: 3.5rem;
+        display: inline-block;
+    }
+}
+/* Media */
+
+
 
 
